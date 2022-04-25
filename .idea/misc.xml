@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/drawable/box_bg.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/drawable/edittext_bg.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/drawable/frame_bg.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/drawable/ic_baseline_menu_30.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/drawable/ic_baseline_search_30.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/activity_main.xml" value="0.9108910891089109" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/custom_action_bar.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/fragment_display_page.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/fragment_home_page.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/fragment_start.xml" value="0.1" />
+        <entry key="..\:/Users/archa/AndroidStudioProjects/AudibleON3/app/src/main/res/layout/fragment_translation_page.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
