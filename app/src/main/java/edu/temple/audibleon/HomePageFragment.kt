@@ -24,10 +24,17 @@ class HomePageFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_home_page, container, false)
         val button = root.findViewById<Button>(R.id.nav_translation)
         val exit_button = root.findViewById<Button>(R.id.exit_button)
+        val text_button = root.findViewById<Button>(R.id.nav_text)
+        val join = root.findViewById<Button>(R.id.nav_join)
+        val host = root.findViewById<Button>(R.id.nav_host)
+        val web = root.findViewById<Button>(R.id.nav_web_app)
 
         button.setOnClickListener {
-            //val intent = Intent(activity, HandsActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(activity, HandsActivity::class.java)
+            startActivity(intent)
+        }
+
+        text_button.setOnClickListener {
             val fragment = DisplayPageFragment()
             val fragmentManager = activity?.supportFragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
@@ -35,6 +42,7 @@ class HomePageFragment : Fragment() {
             fragmentTransaction?.addToBackStack(null)
             fragmentTransaction?.commit()
         }
+
 
         exit_button.setOnClickListener {
             activity?.finishAndRemoveTask();

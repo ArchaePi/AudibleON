@@ -1,5 +1,6 @@
 package edu.temple.audibleon
 
+import android.content.Intent
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.util.Log
@@ -31,7 +32,13 @@ class DisplayPageFragment : Fragment(), TextToSpeech.OnInitListener {
         val back_button = root.findViewById<Button>(R.id.back_button)
         speakBtn = root.findViewById(R.id.audio_button)
         editText = root.findViewById(R.id.translated_text)
+        val video_button = root.findViewById<Button>(R.id.asl_button)
         //tts = TextToSpeech(activity?.applicationContext, this)//
+
+        video_button.setOnClickListener {
+            val intent = Intent(activity, VideoActivity::class.java)
+            startActivity(intent)
+        }
 
         speakBtn!!.isEnabled = false
         tts = TextToSpeech(activity?.applicationContext, this)
